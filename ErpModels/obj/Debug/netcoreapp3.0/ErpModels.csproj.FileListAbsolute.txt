@@ -1,0 +1,8 @@
+D:\Projects\Angular\ErpTest\ErpModels\bin\Debug\netcoreapp3.0\ErpModels.deps.json
+D:\Projects\Angular\ErpTest\ErpModels\bin\Debug\netcoreapp3.0\ErpModels.dll
+D:\Projects\Angular\ErpTest\ErpModels\bin\Debug\netcoreapp3.0\ErpModels.pdb
+D:\Projects\Angular\ErpTest\ErpModels\obj\Debug\netcoreapp3.0\ErpModels.AssemblyInfoInputs.cache
+D:\Projects\Angular\ErpTest\ErpModels\obj\Debug\netcoreapp3.0\ErpModels.AssemblyInfo.cs
+D:\Projects\Angular\ErpTest\ErpModels\obj\Debug\netcoreapp3.0\ErpModels.dll
+D:\Projects\Angular\ErpTest\ErpModels\obj\Debug\netcoreapp3.0\ErpModels.pdb
+D:\Projects\Angular\ErpTest\ErpModels\obj\Debug\netcoreapp3.0\ErpModels.csprojAssemblyReference.cache

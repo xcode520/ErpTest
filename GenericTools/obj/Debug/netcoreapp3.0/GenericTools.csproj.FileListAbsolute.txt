@@ -1,0 +1,8 @@
+D:\Projects\Angular\ErpTest\GenericTools\bin\Debug\netcoreapp3.0\GenericTools.deps.json
+D:\Projects\Angular\ErpTest\GenericTools\bin\Debug\netcoreapp3.0\GenericTools.dll
+D:\Projects\Angular\ErpTest\GenericTools\bin\Debug\netcoreapp3.0\GenericTools.pdb
+D:\Projects\Angular\ErpTest\GenericTools\obj\Debug\netcoreapp3.0\GenericTools.AssemblyInfoInputs.cache
+D:\Projects\Angular\ErpTest\GenericTools\obj\Debug\netcoreapp3.0\GenericTools.AssemblyInfo.cs
+D:\Projects\Angular\ErpTest\GenericTools\obj\Debug\netcoreapp3.0\GenericTools.dll
+D:\Projects\Angular\ErpTest\GenericTools\obj\Debug\netcoreapp3.0\GenericTools.pdb
+D:\Projects\Angular\ErpTest\GenericTools\obj\Debug\netcoreapp3.0\GenericTools.csprojAssemblyReference.cache

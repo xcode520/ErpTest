@@ -1,0 +1,15 @@
+D:\Projects\Angular\ErpTest\ErpService\bin\Debug\netcoreapp3.0\ErpService.deps.json
+D:\Projects\Angular\ErpTest\ErpService\bin\Debug\netcoreapp3.0\ErpService.dll
+D:\Projects\Angular\ErpTest\ErpService\bin\Debug\netcoreapp3.0\ErpService.pdb
+D:\Projects\Angular\ErpTest\ErpService\bin\Debug\netcoreapp3.0\ErpCore.dll
+D:\Projects\Angular\ErpTest\ErpService\bin\Debug\netcoreapp3.0\ErpModels.dll
+D:\Projects\Angular\ErpTest\ErpService\bin\Debug\netcoreapp3.0\GenericTools.dll
+D:\Projects\Angular\ErpTest\ErpService\bin\Debug\netcoreapp3.0\ErpCore.pdb
+D:\Projects\Angular\ErpTest\ErpService\bin\Debug\netcoreapp3.0\ErpModels.pdb
+D:\Projects\Angular\ErpTest\ErpService\bin\Debug\netcoreapp3.0\GenericTools.pdb
+D:\Projects\Angular\ErpTest\ErpService\obj\Debug\netcoreapp3.0\ErpService.csprojAssemblyReference.cache
+D:\Projects\Angular\ErpTest\ErpService\obj\Debug\netcoreapp3.0\ErpService.AssemblyInfoInputs.cache
+D:\Projects\Angular\ErpTest\ErpService\obj\Debug\netcoreapp3.0\ErpService.AssemblyInfo.cs
+D:\Projects\Angular\ErpTest\ErpService\obj\Debug\netcoreapp3.0\ErpService.csproj.CopyComplete
+D:\Projects\Angular\ErpTest\ErpService\obj\Debug\netcoreapp3.0\ErpService.dll
+D:\Projects\Angular\ErpTest\ErpService\obj\Debug\netcoreapp3.0\ErpService.pdb
