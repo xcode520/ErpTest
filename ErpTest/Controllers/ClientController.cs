@@ -14,7 +14,7 @@ namespace ErpTest.Controllers
         public ClientController(IClientService service) 
             => this.Service = service;
 
-        // GET: api/Client
+        // GET: Client
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -22,7 +22,7 @@ namespace ErpTest.Controllers
             return Ok(result);
         }
 
-        // GET: api/Client/5
+        // GET: Client/5
         [HttpGet("{id}", Name = "GetClient")]
         public async Task<ClientItem> Get(string id) 
             => await Service.Get(id);
