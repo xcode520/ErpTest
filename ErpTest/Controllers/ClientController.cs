@@ -1,17 +1,19 @@
-﻿using System.Threading.Tasks;
-using ErpModels.ModelItems;
+﻿using ErpModels.ModelItems;
 using ErpModels.Models;
 using ErpService.IServices;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace ErpTest.Controllers
 {
     [Route("[controller]")]
     [ApiController]
+    [EnableCors]
     public class ClientController : ControllerBase
     {
         readonly IClientService Service;
-        public ClientController(IClientService service) 
+        public ClientController(IClientService service)
             => this.Service = service;
 
         // GET: Client
@@ -24,12 +26,12 @@ namespace ErpTest.Controllers
 
         // GET: Client/5
         [HttpGet("{id}", Name = "GetClient")]
-        public async Task<ClientItem> Get(string id) 
+        public async Task<ClientItem> Get(string id)
             => await Service.Get(id);
 
         // POST: api/Client
         [HttpPost]
-        public void Post([FromBody] ClientModel model) 
+        public void Post([FromBody] ClientModel model)
             => Service.Add(model);
 
         // PUT: api/Client/5
@@ -51,7 +53,7 @@ namespace ErpTest.Controllers
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(string id) 
+        public void Delete(string id)
             => Service.Remove(id);
     }
 }

@@ -37,17 +37,25 @@ namespace ErpTest
             #endregion
 
             #region Register Repository
-            services.AddScoped<IClientRepository , ClientRepository>();
+            services.AddScoped<IClientRepository, ClientRepository>();
             services.AddScoped<IPersonRepository, PersonRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             #endregion
 
             #region Register Service
-            services.AddScoped<IClientService ,  ClientService>();
+            services.AddScoped<IClientService, ClientService>();
             #endregion
 
             services.AddDbContext<ErpContext>(
                 options => options.UseSqlServer(Configuration.GetConnectionString("Default")));
+
+            // Cors Config
+            services.AddCors(
+                    options => options.AddPolicy("deploy", builder =>
+                    {
+                        builder.AllowAnyOrigin();
+                    })
+                );
             services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
@@ -69,7 +77,7 @@ namespace ErpTest
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
+            app.UseCors("deploy");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             if (!env.IsDevelopment())

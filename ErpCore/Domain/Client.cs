@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ErpCore.Domain
+﻿namespace ErpCore.Domain
 {
     public partial class Client
     {
